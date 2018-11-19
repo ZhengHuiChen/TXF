@@ -99,7 +99,7 @@ for (i in seq_along(data$Price)) {
   }
   print(l)
   print(r)
-  # print(p)
+  print(p)
 }
 
 
