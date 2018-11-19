@@ -1,0 +1,26 @@
+---
+title: "回朔測試"
+output: html_notebook
+---
+## 測試資料選取，以`r exa_date`這天資料為例。
+
+```{r echo=TRUE, paged.print=TRUE}
+exa <- data_list[[2]]
+exa_date <- names(data_list)[2]
+exa
+```
+
+```{r}
+baseLineEx <- Baseline[[2]]
+baseLineEx_date <- names(Baseline)[2]
+baseLineEx
+baseLineEx_date
+```
+* 以上為`r exa_date`當天拿到的數字
+
+
+
+
+
+
+
