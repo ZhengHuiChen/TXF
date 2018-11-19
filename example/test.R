@@ -95,6 +95,7 @@ for (i in seq_along(data$Price)) {
   while (between(x = data$Price[i], left = baseline[l], right = baseline[r])) {
     l <- l + 1
     r <- r - 1
+    p
   }
   print(l)
   print(r)
